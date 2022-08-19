@@ -1,0 +1,17 @@
+.logo__img {
+  fill: var(--light-color);
+
+  width: 124px;
+  height: 19px;
+  cursor: pointer;
+}
+
+.logo__img--dark {
+  fill: var(--dark-color);
+}
+
+@media (max-width: 576px) {
+  .logo__img path:not(:first-child) {
+    display: none;
+  }
+}

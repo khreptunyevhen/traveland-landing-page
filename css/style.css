@@ -1,0 +1,10 @@
+@import url('./components/reset.css');
+@import url('./components/vars.css');
+@import url('./components/base.css');
+
+
+/* Blocks styles */
+@import url('./blocks/header.css');
+@import url('./blocks/logo.css');
+@import url('./blocks/menu.css');
+@import url('./blocks/buttons.css');

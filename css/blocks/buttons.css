@@ -1,0 +1,28 @@
+.button {
+  border-radius: var(--border-radius);
+  background-color: var(--primary-color);
+  font-family: var(--main-ff);
+  color: var(--light-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 35px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--light-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  transition: all .5s ease-in-out;
+}
+
+@media (max-width: 576px) {
+  .button {
+    padding: 10px 25px;
+  }
+}

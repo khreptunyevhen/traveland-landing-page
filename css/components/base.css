@@ -1,0 +1,27 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@500;700&family=Roboto:wght@400;500&display=swap');
+
+body {
+  font-family: var(--main-ff);
+  color: var(--opacity-dark-color);
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: calc(var(--main-container) + 2 * var(--padding-container));
+  padding: 0 var(--padding-container);
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  flex: 1 1 auto;
+}

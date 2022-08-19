@@ -1,0 +1,17 @@
+:root {
+  /* Font family */
+  --main-ff: 'Roboto', sans-serif;
+  --secondary-ff: 'Gelasio', serif; 
+
+  /* Markup */
+  --main-container: 1140px;
+  --padding-container: 15px;
+  --border-radius: 5px;
+
+  /* Colors */
+  --primary-color: #c9453b;
+  --light-color: #fff;
+  --opacity-light-color: rgba(255, 255, 255, .6);
+  --dark-color: #000;
+  --opacity-dark-color: rgba(0, 0, 0, .6);
+}
