@@ -1,7 +1,8 @@
 .hero {
   position: relative;
-  height: 100vh;
-  padding-top: 284px;
+  min-height: 100vh;
+  padding: 264px 0 20px;
+  background-color: var(--opacity-dark-color);
   background-image: url('../../img/hero-bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
