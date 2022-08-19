@@ -1,0 +1,29 @@
+.sections-info {
+  text-align: center;
+}
+
+.sections-info__title {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: var(--secondary-ff);
+  color: var(--dark-color);
+
+  font-weight: 500;
+  font-size: 43px;
+  line-height: 1.4;
+}
+
+.description {
+  max-width: 735px;
+  margin: 0 auto;
+}
+
+/* Media */
+@media (max-width: 576px) {
+  .title {
+    font-size: 34px;
+    line-height: 1.2;
+  }
+}

@@ -1,0 +1,20 @@
+.locations {
+  padding-top: calc(var(--section-padding) * 2);
+  padding-bottom: var(--section-padding);
+}
+
+.locations__items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--main-gap);
+  margin-top: 50px;
+}
+
+/* Media */
+@media (max-width: 576px) {
+  .locations {
+    padding-top: calc(var(--section-padding));
+    padding-bottom: calc(var(--section-padding) / 2);
+  }
+}
