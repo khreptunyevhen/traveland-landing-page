@@ -6,13 +6,10 @@
   font-size: 16px;
 }
 
-/* .offer-item__info {
-  flex: 1 1 auto;
-} */
-
 .offer-item__img {
   border-radius: var(--card-border-radius);
 
+  height: 173px;
   margin-bottom: 20px;
   overflow: hidden;
 }
