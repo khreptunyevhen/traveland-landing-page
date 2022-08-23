@@ -1,0 +1,36 @@
+.socials {
+}
+
+.socials__items {
+  gap: var(--main-gap);
+
+  display: flex;
+  align-items: center;
+}
+
+.socials__link svg {
+  --size: 36px;
+
+  width: var(--size);
+  height: var(--size);
+}
+
+.socials__link:hover svg path {
+  transition: all .5s;
+}
+
+.socials__link--ins:hover svg path {
+  fill: #c536a4;
+}
+
+.socials__link--fb:hover svg path {
+  fill: #273b7a;
+}
+
+.socials__link--ggl:hover svg path {
+  fill: #e3443a;
+}
+
+.socials__link--tw:hover svg path {
+  fill: #4285f4;
+}
