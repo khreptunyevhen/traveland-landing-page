@@ -1,9 +1,17 @@
 .news-item {
   gap: var(--main-gap);
+  border-radius: var(--card-border-radius);
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.news-item:hover {
+  box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.08);
+  transition: .3s ease;
 }
 
 .news-item--column {
@@ -32,6 +40,7 @@
 
 .news-item__info {
   max-width: 243px;
+  padding: 10px;
 }
 
 .news-item__info--big {
